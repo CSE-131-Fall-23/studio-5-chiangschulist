@@ -121,6 +121,16 @@ public class Methods {
 
 	// TODO: Create an arrayMean method which accepts an int array of values parameter.
 	// TODO: Create a JavaDoc comment for the arrayMean method.
-
+	
+	/** 
+	 * 
+	 * @param values array of ints
+	 * @return mean of array of ints
+	 */
+	
+	public static double arrayMean(int[] values) {
+		
+		return (double) arraySum(values) / values.length;
+	}
 	
 }
