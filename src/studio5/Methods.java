@@ -123,6 +123,7 @@ public class Methods {
 	// TODO: Create a JavaDoc comment for the arrayMean method.
 	
 	/** 
+	 * Returns mean of an array of ints
 	 * 
 	 * @param values array of ints
 	 * @return mean of array of ints
